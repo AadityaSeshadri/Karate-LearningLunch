@@ -2,6 +2,7 @@ Feature:IOI
 #http://dummy.restapiexample.com/
 Background:
   * url baseUrl+GetUsers
+  #* def UsersJson = read('Users.json')
   * configure retry = { count: 5, interval: 0 }
 
   @Execute
@@ -201,6 +202,9 @@ Background:
     And retry until Users != ''
     * print 'Show Employee Names from Response where Employee Salary greater than 100K ------------>',Users
 
-
+  @File
+  Scenario: Validate from Json File
+    When method get
+    And match response == read('Users.json')
 
 
