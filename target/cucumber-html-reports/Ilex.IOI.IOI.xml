@@ -1,0 +1,1031 @@
+<testsuite failures="2" name="Ilex/IOI/IOI.feature" skipped="0" tests="13" time="34.830095">
+  <testcase classname="Ilex.IOI.IOI" name="Clear DB" time="20.62592">
+    <failure message="IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: &quot;temp&quot; is not defined in &lt;eval&gt; at line number 1">Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)</failure>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.522102">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.316006">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.364584">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.3079">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.403171">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.303599">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.411081">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.298061">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.29118">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.340088">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="Create New IOI with Dynamic Status Query Parameter" time="0.415266">
+    <system-out>Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed</system-out>
+  </testcase>
+  <testcase classname="Ilex.IOI.IOI" name="IOICreation Count Validation" time="10.231138">
+    <failure message="IOI.feature:87 - assert evaluated to false: temp == '11'">Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def DeleteDB = .......................................................... passed
+* def ConfirmDB = DeleteDB() .............................................. passed
+* print ConfirmDB ......................................................... passed
+* def GetTableCount = ..................................................... passed
+* def Count = GetTableCount() ............................................. passed
+* print 'Count After Truncating Database Table-----------------&gt;', Count .. passed
+* assert temp == '0' ...................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:34 - javascript evaluation failed: temp == '0', ReferenceError: "temp" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* assert temp == '0' (IOI.feature:34)
+
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+Given param action = 'SUBMITTED' .......................................... passed
+When request .............................................................. passed
+And method post ........................................................... passed
+And def IOIID = get[0] response..buyInterestId ............................ passed
+* print '----------IOIID-------------&gt;'+IOIID ............................. passed
+Given url 'http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login' . passed
+And request {username: "Buyer@comp.com", password: "password"} ............ passed
+And method post ........................................................... passed
+* url baseUrl+IOI ......................................................... passed
+* print '---------------------&gt;'+url ...................................... passed
+* def GetTableCount = ..................................................... passed
+* def temp = GetTableCount() .............................................. passed
+* print 'Count After Creating IOI-----------------&gt;', temp ................ passed
+* assert temp == '11' ..................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: IOI.feature:87 - assert evaluated to false: temp == '11'
+	at ✽.* assert temp == '11' (IOI.feature:87)</failure>
+  </testcase>
+</testsuite>

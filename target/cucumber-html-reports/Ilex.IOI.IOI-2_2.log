@@ -1,0 +1,28 @@
+15:19:08.358 request:
+1 > POST http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/v1/buyinterests/?action=SUBMITTED
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 498
+1 > Content-Type: application/json; charset=UTF-8
+1 > Cookie: SESSION=NWMxMWI4OWYtM2MyMy00YTcwLWI5ZDktN2U3ZWYxMGNmYjBl
+1 > Host: ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13.0.2)
+{"name":"ioi-100","goodUntil":null,"borrowers":[],"industries":["Aerospace and Defense"],"countriesOfRisk":["AU"],"purposes":[],"facilitiesType":[],"currencies":[],"minSpread":"0","maxSpread":"300","minTicketSize":"50000000","maxTicketSize":"500000000","minResidualTenor":"3","maxResidualTenor":"10","transferTypes":[],"marketType":"ANY","security":"ANY","seniority":[],"greenLoan":"ANY","exportCreditAgency":"ANY","parentCountries":[],"investorType":[],"filterCompanies":[],"directInvitations":[]}
+
+15:19:08.670 response time in milliseconds: 310.59
+1 < 201
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sat, 18 Apr 2020 07:19:08 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: nginx/1.17.9
+1 < Transfer-Encoding: chunked
+1 < Vary: [Origin, Access-Control-Request-Method, Access-Control-Request-Headers]
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"buyInterestId":552,"name":"ioi-100","goodUntil":null,"status":"SUBMITTED","borrowers":[],"industries":["Aerospace and Defense"],"countriesOfRisk":["AU"],"purposes":[],"facilitiesType":[],"minSpread":"0","maxSpread":"300","minResidualTenor":"3","maxResidualTenor":"10","minTicketSize":"50000000","maxTicketSize":"500000000","currencies":[],"transferTypes":[],"seniority":[],"marketType":"ANY","security":"ANY","greenLoan":"ANY","exportCreditAgency":"ANY","parentCountries":[],"investorType":[],"filterCompanies":[],"directInvitations":[]}
+
+15:19:08.672 [print] ----------IOIID------------->552

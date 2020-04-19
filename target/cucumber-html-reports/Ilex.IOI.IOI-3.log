@@ -1,0 +1,29 @@
+15:19:11.825 request:
+1 > POST http://ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com/api/trade/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 51
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: ilex-test-fe-lb-317145507.ap-southeast-1.elb.amazonaws.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/13.0.2)
+{"username":"Buyer@comp.com","password":"password"}
+
+15:19:12.023 response time in milliseconds: 196.62
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=ISO-8859-1
+1 < Date: Sat, 18 Apr 2020 07:19:12 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: nginx/1.17.9
+1 < Set-Cookie: SESSION=YTBkNjQ4OWMtNjA5YS00ZGFhLWIyOGYtYzZmZmI4MzlmNWFj; Path=/; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"firstName":"Test Buyer","lastName":"Lastname","emailAddress":"Buyer@comp.com","role":["USER"],"userId":2,"company":{"id":39347,"name":"Scotiabank","legalName":null,"type":null,"description":null,"parentEntity":null,"country":null,"website":null,"logo":null,"refinitivLenderId":null,"refinitivParent":null,"ilexType":null,"timeZone":null,"status":null}}
+
+15:19:12.026 [print]
+15:19:22.045 [print] Count After Creating IOI-----------------> 0
+15:19:22.055 assertion failed: assert evaluated to false: temp == '11'
